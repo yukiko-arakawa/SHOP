@@ -1,0 +1,102 @@
+@media(max-width:768px){
+ .wrapper{
+   overflow: hidden;
+ }
+  #mainnav ,.changeNav{
+    display: none;
+  }
+  .top-img img{
+    height: 500px;
+    object-fit: cover;
+  }
+ .top-h{
+     top: 40%;
+     left: 38%;
+  }
+  .top-h h1{
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+  }
+  .top-h h2{
+    font-size: 12px;
+  }
+  .vision{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .message-photo{
+    display: flex;
+    flex-direction: column;
+  }
+  .message-photo img{
+    width: 100%;
+  }
+  .message-photo .message{
+    order: 2;
+  }
+  .message-photo img{
+    order: 1;
+  }
+  .service-wrapper{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .service{
+    width: 60%;
+    margin: 50px auto;
+  }
+}
+@media(min-width:768px){ 
+  .responsive-nav{
+    display: none;
+  }
+}
+@media(max-width:520px){
+  .responsive-nav a{
+        font-size: 12px;
+  }
+  .top-h{
+    width: 80%;
+    margin-left: -50px;
+  }
+.top-h h1{
+  font-size: 25px;
+}
+.message{
+  padding: 30px;
+}
+.service{
+  width: 80%;
+  margin: 40px auto;
+}
+.story-wrapper{
+  display: block;
+}
+.story{
+  width: 72%;
+  margin: 30px auto;
+  padding-bottom: 30px;
+}
+.story h3{
+  padding-top: 50px;
+}
+.profile-wrapper{
+  display: block;
+}
+.profile{
+  width: 100%;
+}
+.profile dd{
+  width: 65%;
+}
+.profile-wrapper .ggmap{
+  width: auto;
+}
+footer{
+  width: 80%;
+  margin: 0 auto;
+}
+
+}
