@@ -52,6 +52,9 @@
   .responsive-nav{
     display: none;
   }
+  .sp-only{
+    display: none;
+  }
 }
 @media(max-width:520px){
   .responsive-nav a{
